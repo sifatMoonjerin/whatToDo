@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <title>What To Do</title>
+</head>
+<body>
+    <div class="todo__app">
+
+        <!------------------------------TOP---------------------------->
+
+        <div class="top">
+
+            <div class= "tasks__left">
+                Tasks Completed: <span class="com__task">0</span>/<span class="tot__task">8</span>
+            </div>
+            <div class="refresh"> 
+                <button class="refresh__btn">
+                    <i class="ion-android-refresh"></i>
+                </button>
+            </div>
+
+            <div class="time__block">
+                <div class="clock"><span class="clock__hour">88</span>:<span class="clock__minute">88</span><span class="ampm"> PM</span></div>
+                <div class="date"><span class="date__day">Day</span>, <span class="date__date">00</span> <span class="date__month">Month</span></div>
+            </div>
+        </div>
+
+        <!------------------------------BOTTOM------------------------->
+        
+        <div class="bottom">
+            <ul class="task__list">
+                <!--
+                <li> 
+                    <div class="item__list">
+                        <div class="item__name"><i class="ion-ios-arrow-forward">  </i>learn JS</div>
+                        <button class="delete__btn">
+                            <i class="ion-ios-trash"></i>
+                        </button>
+                        <button class="done__btn">
+                            <i class="ion-ios-checkmark"></i>
+                        </button> 
+                    </div>
+                </li>
+                <li>
+                    <div class="item__list"  id=0>
+                        <div class="item__name"><i class="ion-ios-arrow-forward">  </i>forget JS</div>
+                        <button class="delete__btn">
+                            <i class="ion-ios-trash"></i>
+                        </button>
+                        <button class="done__btn">
+                            <i class="ion-ios-checkmark"></i>
+                        </button> 
+                    </div>
+                </li>
+                -->
+            </ul>
+
+            <div class="input__block">
+                <input type="text" class="input__field" placeholder="What To Do!">
+                <button class="add__btn">
+                    <i class="ion-android-add-circle"></i>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
